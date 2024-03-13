@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     languageSelect.addEventListener("change", function() {
         if (languageSelect.value === "it") {
-            window.location.href = "pages/indexIT.html"; // Redirect to Italian version page
+            window.location.href = "./pages/indexIT.html"; 
         } else if (languageSelect.value === "en") {
-            window.location.href = "/index.html"; // Redirect to English version page using absolute path
+            window.location.href = "../index.html"; 
         }
     });
 });
