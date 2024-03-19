@@ -105,3 +105,15 @@
     animation: move_wave 15s linear infinite;
     z-index: -1;
 }
+
+/* mobile wave */
+
+@media only screen and (max-width: 768px) {
+    .waveAnimation .waveTop,
+    .waveAnimation .waveMiddle,
+    .waveAnimation .waveBottom {
+        animation: none !important;
+        -webkit-animation: none !important;
+        display: none;
+    }
+}
