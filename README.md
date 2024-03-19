@@ -1,4 +1,4 @@
-# My Portfolio Code Readme
+# My Portfolio Readme
 
 ## Overview
 This repository contains the code for my portfolio website. It serves as my final project for FreeCodeCamp and showcases my projects, skills, and contact information.
