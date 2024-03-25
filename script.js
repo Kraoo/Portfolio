@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-        links[i].addEventListener('click', function(event) {
+    var nonDefaultLinks = document.querySelectorAll('a:not([target="_blank"])');
+    for (var i = 0; i < nonDefaultLinks.length; i++) {
+        nonDefaultLinks[i].addEventListener('click', function(event) {
             event.preventDefault();
             var href = this.getAttribute('href');
             if (href && href !== '#') {
