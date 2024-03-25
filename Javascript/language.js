@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     languageSelect.addEventListener("change", function() {
         if (languageSelect.value === "it") {
-            window.location.href = "../Pages/indexIT.html"; 
+            window.location.href = "../indexIT.html"; 
         } else if (languageSelect.value === "en") {
             window.location.href = "../index.html"; 
         }
